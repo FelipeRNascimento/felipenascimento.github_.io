@@ -133,5 +133,22 @@
   <footer>
     &copy; 2025 Felipe Nascimento. All rights reserved.
   </footer>
+<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #0e0e2c; color: white; padding: 1rem; text-align: center; font-size: 0.9rem; z-index: 1000;">
+  Este site usa cookies para melhorar sua experiência. Ao clicar em "Aceitar e Fechar", você concorda com a utilização dos cookies e com a nossa <a href="/politica-de-privacidade.html" target="_blank" style="color: #87cefa;">Política de Privacidade</a>.
+  <button onclick="acceptCookies()" style="margin-left: 1rem; padding: 0.4rem 1rem; background: #87cefa; border: none; border-radius: 4px; font-weight: bold;">Aceitar e Fechar</button>
+</div>
+
+<script>
+  function acceptCookies() {
+    document.getElementById('cookie-banner').style.display = 'none';
+    localStorage.setItem('cookiesAccepted', 'true');
+  }
+
+  window.onload = function () {
+    if (localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  };
+</script>
 </body>
 </html>
