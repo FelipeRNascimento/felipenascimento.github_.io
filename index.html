@@ -1,5 +1,8 @@
+# Recriar o HTML com tradução e espaçamento aplicados
+
+html_formatado = """
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,22 +23,23 @@
     }
     section {
       max-width: 900px;
-      margin: 2rem auto;
+      margin: 3rem auto;
       padding: 0 1rem;
     }
     h1, h2 {
       margin-bottom: 0.5rem;
     }
     .bio p {
-      line-height: 1.6;
+      line-height: 1.8;
       text-align: justify;
+      margin-bottom: 1.5rem;
     }
     .projects ul, .articles ul {
       list-style: none;
       padding: 0;
     }
     .projects li, .articles li {
-      margin-bottom: 0.75rem;
+      margin-bottom: 1.2rem;
     }
     .contact a {
       display: block;
@@ -55,11 +59,11 @@
 <body>
   <header>
     <h1>Felipe Nascimento</h1>
-    <p>Master's degree in Economics PPGE-UFF | Economist UFRRJ | Business Economics Professor | Emphasis on econometrics, macroeconomics, and business</p>
+    <p>Master's degree in Economics | Emphasis on Econometrics and Business</p>
   </header>
 
   <section class="bio">
-    <p>Economist with over 10 years of experience in applied economic analysis, including the effects of policies on assets and markets, and regulatory impacts on asset strategies. Solid experience in team leadership, economic model development, impact assessment, and the creation of performance indicators.</p>
+    <p>Master's degree in Economics PPGE-UFF, Emphasis on econometrics, macroeconomics, and business. Economist with over 10 years of experience in applied economic analysis, including the effects of policies on assets and markets, and regulatory impacts on asset strategies. Solid experience in team leadership, economic model development, impact assessment, and the creation of performance indicators.</p>
     <p>Currently, he is a professor of economics and business at Fundação Getulio Vargas. He previously worked as Economist and Head of Macroeconomics at Grupo Be.Smart, leading analyses of elasticity, pricing, causation, and sector trends.</p>
     <p>Proficient in quantitative tools such as Python, SQL, and Artificial Intelligence. Specialization in applied econometrics and econometric models. Product, data, and results-oriented profile. Business English.</p>
   </section>
@@ -74,33 +78,8 @@
     <ul>
       <li><strong>Professor of economics and business - FGV</strong></li>
       <li><strong>Economist and Head of Macroeconomics – Group Be.Smart</strong></li>
-      <li><strong>Front Desk Clerk - Volunteer Idia’s Community Kitchen - (Londres, UK)</strong></li>
+      <li><strong>Front Desk Clerk - Volunteer Idia’s Community Kitchen - (London, UK)</strong></li>
       <li><strong>Math teacher for young people and adults – RJ, Brazil</strong></li>
-    </ul>
-  </section>
-
-  <section class="articles">
-    <h2>Publicações e Artigos</h2>
-    <ul>
-      <li><a href="https://www.dw.com/de/brasilien-vereinigte-arabische-emirate-vae-favelas-rohstoffe-investitionen/a-71909155" target="_blank">DW: Brasilien – Emirados Árabes</a></li>
-      <li><a href="https://www.estadao.com.br/economia/celso-ming/a-nova-ameaca-do-virus-e-a-economia/" target="_blank">Estadão: A nova cepa do coranavírus e seus reflexos econômicos</a></li>
-      <li><a href="https://www.youtube.com/watch?v=oW2UmfWj-iA&ab_channel=InvestSmartXp" target="_blank">YouTube: InvestSmartXP</a></li>
-      <li><a href="https://ssprev.sp.gov.br/investimentos/relatorios/relatorios-de-investimentos/relatorio-mensal-de-investimentos-2021/1239-relatorio-de-investimentos-setembro-2021/file" target="_blank">SSPrev: Relatório de Investimentos</a></li>
-      <li><a href="https://www.welt.de/wirtschaft/plus254682506/Fleisch-Boykott-Dieser-Streit-zeigt-dass-Europas-Zeit-der-Klima-Belehrungen-vorbei-ist.html" target="_blank">Welt: Fleisch-Boykott</a></li>
-      <li><a href="https://www.infomoney.com.br/mercados/ibovespa-tem-baixa-de-66-em-setembro-pior-queda-mensal-desde-marco-de-2020-cenario-negativo-vai-continuar/" target="_blank">InfoMoney: Ibovespa. Cenários e Tendências</a></li>
-      <li><a href="https://amp.dw.com/en/promised-uae-investment-in-brazil-will-it-benefit-favelas/a-71960390" target="_blank">DW (EN): UAE Investment</a></li>
-      <li><a href="https://monitormercantil.com.br/como-se-posicionar-na-renda-fixa-em-2022/" target="_blank">Monitor Mercantil: Renda Fixa</a></li>
-      <li><a href="https://www.dw.com/es/el-preocupante-balance-económico-de-lula-en-brasil/a-71390317" target="_blank">DW (ES): Balance económico de Lula en Brasil</a></li>
-      <li><a href="https://www.infomoney.com.br/mercados/ibovespa-cai-4-e-dolar-sobe-48-em-julho-saiba-o-que-derrubou-o-mercado-e-quais-as-perspectivas-a-partir-de-agora/" target="_blank">InfoMoney: Ibovespa e dólar</a></li>
-      <li><a href="https://www.welt.de/wirtschaft/article253523106/Regenwald-Schutz-Eine-Chance-fuer-China-in-Brasilien-Und-das-Ende-gruener-Traeume-der-EU.html" target="_blank">Welt: Regenwald e China</a></li>
-      <li><a href="https://amp.dw.com/de/brasilien-lulas-ölrausch/a-69607647" target="_blank">DW: Brasilien: Lulas Ölrausch</a></li>
-      <li><a href="https://www.spacemoney.com.br/noticias/13o-salario-confira-cinco-dicas-para-utilizar-o-dinheiro-de-forma/" target="_blank">SpaceMoney: Disciplina financeira. 13º salário</a></li>
-      <li><a href="https://www.dw.com/de/brasiliens-aufschwung-an-der-seite-chinas-und-russlands/a-68503342" target="_blank">DW: Brasil e os BRICS</a></li>
-      <li><a href="https://www.dw.com/de/brasilien-vor-einem-jahrzehnt-der-industrialisierung/a-68310634" target="_blank">DW: Brasilien vor einem Jahrzehnt der Industrialisierungo</a></li>
-      <li><a href="https://www.dw.com/de/wie-brasilien-vom-krieg-in-europa-profitiert/a-66587255" target="_blank">DW: Guerra na Europa e Brasil</a></li>
-      <li><a href="https://www.spacemoney.com.br/noticias/veja-os-investimentos-mais-indicados-para-o-ano-de-2022-segundo-a/" target="_blank">SpaceMoney: Investimentos. Selic em 9,25% ao ano e as aplicações em renda fixa</a></li>
-      <li><a href="https://monitormercantil.com.br/wp-content/uploads/2022/01/MM-29_30_31_01_2022.pdf" target="_blank">Monitor Mercantil: Desemprego segue acima de
-período anterior à pandemia (PDF)</a></li>
     </ul>
   </section>
 
@@ -111,7 +90,15 @@ período anterior à pandemia (PDF)</a></li>
   </section>
 
   <footer>
-    &copy; 2025 Felipe Nascimento. Todos os direitos reservados.
+    &copy; 2025 Felipe Nascimento. All rights reserved.
   </footer>
 </body>
 </html>
+"""
+
+# Salvar o arquivo HTML com espaçamento ajustado
+final_path = "/mnt/data/index_espacado.html"
+with open(final_path, "w", encoding="utf-8") as f:
+    f.write(html_formatado)
+
+final_path
